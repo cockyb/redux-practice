@@ -1,7 +1,7 @@
 import React from "react";
 import cx from "classnames";
-// import { VISIBILITY_FILTERS } from "../constants";
-const VISIBILITY_FILTERS = 'sss'
+import { VISIBILITY_FILTERS } from "../constants";
+
 const VisibilityFilters = ({ activeFilter, setFilter }) => {
   return (
     <div className="visibility-filters">
