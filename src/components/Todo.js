@@ -1,11 +1,11 @@
 import React from 'react';
 import cx from 'classnames';
-import { toggleTodo } from "../redux/actions";
-import { useDispatch } from 'react-redux'
+import {toggleTodo} from '../redux/actions';
+import {useDispatch} from 'react-redux';
 
 const Todo = ({todo}) => {
   console.log(todo);
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
   return (
     <li className='todo-item' onClick={() => dispatch(toggleTodo(todo.id))}>
       {todo && todo.completed ? '👌' : '👋'}
@@ -20,6 +20,6 @@ const Todo = ({todo}) => {
       </span>
     </li>
   );
-}
+};
 
 export default Todo;

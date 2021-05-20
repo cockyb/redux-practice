@@ -1,0 +1,37 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "google"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "indent": [
+            "error",
+            2
+        ],
+        "require-jsdoc": "off",
+        "react-hooks/exhaustive-deps": 0,
+        "react/react-in-jsx-scope": "off",
+        "new-cap": "off",
+        "no-unused-vars": "warn",
+        "react/prop-types": "off",
+        "linebreak-style": 0,
+        "max-len": [
+            "error",
+            120
+        ]
+    }
+}
