@@ -1,5 +1,5 @@
 # TodoList (React-redux, redux)
-[Demo]()page
+[Demo]()
 
 [CodeSandbox](https://codesandbox.io/s/happy-black-jw4ex?file=/src/App.js)
 
