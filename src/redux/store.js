@@ -1,4 +1,4 @@
-import {createStore, applyMiddleware} from 'redux';
+import { createStore, applyMiddleware } from 'redux';
 import rootReducer from './reducers';
 
 // Middleware written as ES5 functions
@@ -10,7 +10,7 @@ function logger(storeAPI) {
       // Do anything here: pass the action onwards with next(action),
       // or restart the pipeline with storeAPI.dispatch(action)
       // Can also use storeAPI.getState() here
-
+      console.log(action.type, action.payload);
       return next(action);
     };
   };
