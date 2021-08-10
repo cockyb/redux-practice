@@ -4,7 +4,6 @@ import {toggleTodo} from '../redux/actions';
 import {useDispatch} from 'react-redux';
 
 const Todo = ({todo}) => {
-  console.log(todo);
   const dispatch = useDispatch();
   return (
     <li className='todo-item' onClick={() => dispatch(toggleTodo(todo.id))}>
