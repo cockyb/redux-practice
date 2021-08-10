@@ -1,44 +1,24 @@
 # TodoList (React-redux, redux)
-[Demo]()
-
+TodoList를 만들며 배우는 React-redux, redux를 활용한 전역 상태관리
 [CodeSandbox](https://codesandbox.io/s/happy-black-jw4ex?file=/src/App.js)
+[블로그: 리액트 전역상태관리](https://genglog.me/blog/210130)
 
-# Getting Started with Create React App
+### 구성
+해당 앱은 [Create React App](https://create-react-app.dev/) 프레임워크로 구성되어 있습니다. 해당 프레임워크 인프라에대한 전반적인 이해가 필요합니다.
+### 이용 가능한 스크립트
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+프로젝트 루트 디렉터리에서 해당 스크립트들을 실행할 수 있습니다.
+```bash
+npm install
+```
+package.json에 명시된 package들을 설치합니다.
 
-## Available Scripts
+```bash
+npm run start
+```
+개발모드를 실행합니다. [http://localhost:3000](http://localhost:3000)에서 확인하실 수 있으며 프로젝트 수정이 있을 시 리로드 됩니다.
 
-In the project directory, you can run:
-
-### `npm install`
-
-install node_modules
-
-### `npm run start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+npm run build
+```
+프로덕션을 위한 빌드를 진행합니다. build폴더 내에 구성됩니다.
